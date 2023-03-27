@@ -1,5 +1,6 @@
 /// <reference types = "cypress"/>
 // Hooks : BeforeEatch (colocar uma instrução antes de executar o teste) e afterEatch (colocar instrução após o teste)
+//Faker traz valores randomicos para serem utlizados como dados "Evitando alterar os dados a cada teste"
 const { faker } = require("@faker-js/faker");
 
 describe('Funcionalidade Pré cadastro', () => {
